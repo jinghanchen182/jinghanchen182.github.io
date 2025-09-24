@@ -2,10 +2,10 @@
 title: jinghanchen's blog
 description: 
 url: https://jinghanchen182.github.io/
-avatar: /avatar.jpeg
+avatar: /chiikawa.jpg
 paginate: 5
 permalink: pretty
-cover_image: /bg.jpeg
+cover_image: /bg.jpg
 
 # Gems
 plugins:
@@ -54,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Jinghan Chen
+  url: https://jinghanchen182.github.io/
+  email: jinghanchen182@gmail.com
