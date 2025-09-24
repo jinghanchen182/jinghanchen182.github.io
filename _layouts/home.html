@@ -4,6 +4,18 @@ layout: default
 
 {% include home-header.html %}
 
+{% if site.author.email or site.author.address %}
+<section class="contact-block">
+  <h2>Contact</h2>
+  {% if site.author.email %}
+    <p><i class="fas fa-envelope"></i> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+  {% endif %}
+  {% if site.author.address %}
+    <p><i class="fas fa-map-marker-alt"></i> {{ site.author.address }}</p>
+  {% endif %}
+</section>
+{% endif %}
+
 <div class="posts">
   {% for post in paginator.posts %}
   <section class="post-entry">
